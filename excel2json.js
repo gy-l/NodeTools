@@ -26,6 +26,6 @@ fs.writeFile("total.json", JSON.stringify(outData), "utf-8", complete)
 
 //  3. 数据写入本地json文件  输出的json文件      数据      文件编码格式 完成事件
 
-function complete(err) {
+function complete (err) {
   if (!err) console.log("文件生成成功")
 }
